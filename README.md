@@ -28,6 +28,7 @@ brew analytics off
 brew cask
 brew tap caskroom/versions
 ```
+[Install essential package manager & dependency tools](essential.sh)
 
 ## Install CLI Applications
 
@@ -50,7 +51,7 @@ node \
 openssl \
 mas
 ```
-
+[Install CLI Applications](cli.sh)
 
 
 ## Install GUI Applications without password
@@ -85,6 +86,8 @@ webpquicklook \
 suspicious-package \
 quicklookase
 ```
+[Install GUI Applications without password](gui.sh)
+
 
 ## Install GUI Applications
 
@@ -107,6 +110,8 @@ visual-studio-code \
 imazing \
 qlvideo
 ```
+
+[Install GUI Applications](gui_pwd.sh)
 
 ## Install MAS Applications
 
@@ -139,6 +144,7 @@ My Favorite Applications
 |803453959  |Slack (3.3.8)                       |
 |1055511498 |Day One (3.0.1)                     |
 
+[Install MAS Applications](mas.sh)
 
 ## System Settings
 
@@ -199,8 +205,9 @@ defaults write com.apple.finder _FXShowPosixPathInTitle -bool YES
 # Show build duration for Xcode
 defaults write com.apple.dt.Xcode ShowBuildOperationDuration YES
 ```
+[System Settings](system_settings.sh)
 
-## Shell
+## Others
 
 #### Install oh-my-zsh (typing password manually)
 
@@ -209,6 +216,8 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 sed -i -e 's/robbyrussell/agnoster/g' ~/.zshrc
 rm ~/.zshrc-e
 ```
+
+[Install oh-my-zsh](ohzsh.sh)
 
 #### Install Fonts
 
@@ -245,3 +254,4 @@ wget https://raw.githubusercontent.com/supermarin/powerline-fonts/master/Menlo/M
 mv ~/Downloads/Menlo\ Regular\ for\ Powerline.otf ~/Library/Fonts
 ```
 
+[Install Fonts](fonts.sh)
