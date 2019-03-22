@@ -255,3 +255,11 @@ mv ~/Downloads/Menlo\ Regular\ for\ Powerline.otf ~/Library/Fonts
 ```
 
 [Install Fonts](fonts.sh)
+
+
+## Manually Install
+
+* [iPhone Backup Extractor](https://www.iphonebackupextractor.com/)
+* [Battery Time Remaining 2](https://github.com/codler/Battery-Time-Remaining)
+* [GPG Suite](https://gpgtools.org/)
+* [Caprine](https://github.com/sindresorhus/caprine)
