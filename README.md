@@ -49,6 +49,7 @@ autoconf \
 automake \
 node \
 openssl \
+byobu \
 mas
 ```
 [Install CLI Applications](cli.sh)

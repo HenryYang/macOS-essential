@@ -16,4 +16,5 @@ autoconf \
 automake \
 node \
 openssl \
+byobu \
 mas
