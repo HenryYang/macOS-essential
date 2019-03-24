@@ -12,10 +12,8 @@ iterm2 \
 evernote \
 spotify \
 appcleaner \
-battery-time-remaining \
 coderunner \
 handbrake \
-iphone-backup-extractor \
 macdown \
 coconutbattery \
 transmit \
