@@ -17,4 +17,5 @@ automake \
 node \
 openssl \
 byobu \
+ffmpeg \
 mas

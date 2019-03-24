@@ -50,6 +50,7 @@ automake \
 node \
 openssl \
 byobu \
+ffmpeg \
 mas
 ```
 [Install CLI Applications](cli.sh)
