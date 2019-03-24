@@ -8,6 +8,7 @@ mtr \
 nmap \
 pyenv \
 go \
+glide \
 tmux \
 youtube-dl \
 git \
