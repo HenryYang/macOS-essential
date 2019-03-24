@@ -9,7 +9,6 @@ typinator \
 google-chrome \
 firefox \
 iterm2 \
-evernote \
 spotify \
 appcleaner \
 coderunner \
