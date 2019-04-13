@@ -237,6 +237,11 @@ font-meslo-nerd-font
 
 [Install Fonts](fonts.sh)
 
+## Setup Hostname (Be sure to change hostname to yours)
+
+```
+sudo scutil --set HostName emp
+```
 
 ## Manually Install
 
