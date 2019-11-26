@@ -26,7 +26,6 @@ brew analytics off
 
 # Install brew cask
 brew cask
-brew tap caskroom/versions
 ```
 [Install essential package manager & dependency tools](essential.sh)
 
@@ -73,7 +72,6 @@ spotify \
 appcleaner \
 coderunner \
 handbrake \
-macdown \
 coconutbattery \
 transmit \
 qlcolorcode \
