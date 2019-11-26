@@ -13,7 +13,6 @@ spotify \
 appcleaner \
 coderunner \
 handbrake \
-macdown \
 coconutbattery \
 transmit \
 qlcolorcode \
