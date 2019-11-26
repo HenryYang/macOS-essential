@@ -10,4 +10,3 @@ brew analytics off
 
 # Install brew cask
 brew cask
-brew tap caskroom/versions
