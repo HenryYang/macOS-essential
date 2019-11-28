@@ -73,6 +73,7 @@ appcleaner \
 coderunner \
 handbrake \
 coconutbattery \
+caprine ＼
 transmit \
 qlcolorcode \
 qlstephen \
@@ -241,9 +242,27 @@ font-meslo-nerd-font
 sudo scutil --set HostName emp
 ```
 
+
+## Block updates to macOS Catalina 10.15
+
+```
+sudo softwareupdate --ignore "macOS Catalina"
+```
+
+## Enable updates to macOS Catalina 10.15
+```
+sudo softwareupdate --reset-ignored
+```
+
+## Disable Gatekeeper in macOS Sierra or later
+
+⚠️⚠️⚠️ Proceed at your own risk ⚠️⚠️⚠️
+```
+sudo spctl --master-disable
+```
+
+
 ## Manually Install
 
 * [iPhone Backup Extractor](https://www.iphonebackupextractor.com/)
-* [Battery Time Remaining 2](https://github.com/codler/Battery-Time-Remaining)
 * [GPG Suite](https://gpgtools.org/)
-* [Caprine](https://github.com/sindresorhus/caprine)

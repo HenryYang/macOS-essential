@@ -14,6 +14,7 @@ appcleaner \
 coderunner \
 handbrake \
 coconutbattery \
+caprine ＼
 transmit \
 qlcolorcode \
 qlstephen \
