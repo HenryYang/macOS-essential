@@ -94,7 +94,6 @@ quicklookase
 
 ```
 brew cask install \
-java8 \
 shimo \
 vmware-fusion \
 splashtop-personal \
