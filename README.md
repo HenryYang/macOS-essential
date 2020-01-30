@@ -74,7 +74,7 @@ coderunner \
 handbrake \
 coconutbattery \
 caprine ＼
-transmit \
+transmit ＼
 qlcolorcode \
 qlstephen \
 qlmarkdown \
