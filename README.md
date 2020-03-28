@@ -73,8 +73,8 @@ appcleaner \
 coderunner \
 handbrake \
 coconutbattery \
-caprine ＼
-transmit ＼
+caprine \
+transmit \
 qlcolorcode \
 qlstephen \
 qlmarkdown \
@@ -83,7 +83,8 @@ betterzip \
 qlimagesize \
 webpquicklook \
 suspicious-package \
-quicklookase
+quicklookase \
+vlc
 ```
 [Install GUI Applications without password](gui.sh)
 
@@ -241,15 +242,23 @@ font-meslo-nerd-font
 sudo scutil --set HostName emp
 ```
 
-
-## Block updates to macOS Catalina 10.15
+## Enable Touch ID for sudo Authentication in Terminal
 
 ```
+sudo sed -i ".bak" '2s/^/auth       sufficient     pam_tid.so\'$'\n/g' /etc/pam.d/sudo
+```
+
+Workaround for iTerm2: `Turn off Prefs > Advanced > Allow sessions to survive logging out and back in`
+
+
+## Block & Re-Enable updates to macOS Catalina 10.15
+
+```
+# For Block
 sudo softwareupdate --ignore "macOS Catalina"
 ```
-
-## Enable updates to macOS Catalina 10.15
 ```
+# For Re-Enable
 sudo softwareupdate --reset-ignored
 ```
 

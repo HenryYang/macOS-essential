@@ -14,7 +14,7 @@ appcleaner \
 coderunner \
 handbrake \
 coconutbattery \
-caprine ＼
+caprine \
 transmit \
 qlcolorcode \
 qlstephen \
@@ -24,6 +24,7 @@ betterzip \
 qlimagesize \
 webpquicklook \
 suspicious-package \
-quicklookase
+quicklookase \
+vlc
 
 
