@@ -84,6 +84,7 @@ qlimagesize \
 webpquicklook \
 suspicious-package \
 quicklookase \
+divvy \
 vlc
 ```
 [Install GUI Applications without password](gui.sh)
