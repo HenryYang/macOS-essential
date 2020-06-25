@@ -25,6 +25,7 @@ qlimagesize \
 webpquicklook \
 suspicious-package \
 quicklookase \
+divvy \
 vlc
 
 
