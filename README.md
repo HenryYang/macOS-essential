@@ -258,6 +258,11 @@ Workaround for iTerm2: `Turn off Prefs > Advanced > Allow sessions to survive lo
 sudo softwareupdate --ignore "macOS Catalina"
 ```
 ```
+# Remove Update Notification
+defaults delete com.apple.preferences.softwareupdate LatestMajorOSSeenByUserBundleIdentifier && softwareupdate --list
+```
+
+```
 # For Re-Enable
 sudo softwareupdate --reset-ignored
 ```
