@@ -275,6 +275,12 @@ sudo softwareupdate --reset-ignored
 sudo spctl --master-disable
 ```
 
+## Restart Touchbar Service
+
+```
+sudo pkill TouchBarServer
+```
+
 
 ## Manually Install
 
