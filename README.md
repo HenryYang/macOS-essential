@@ -2,7 +2,7 @@
 
 
 
-Here is my macOS auto install script. It works on my macOS 10.14
+Here is my macOS auto install script. It works on my macOS 10.15
 
 ⚠️⚠️⚠️ 
 
@@ -33,7 +33,6 @@ brew cask
 
 ```
 brew install \
-zsh \
 mackup \
 mobile-shell \
 mtr \
@@ -51,6 +50,7 @@ node \
 openssl \
 byobu \
 ffmpeg \
+hugo \
 mas
 ```
 [Install CLI Applications](cli.sh)
@@ -128,7 +128,7 @@ My Favorite Applications
 |638161122 |YubiKey Personalization Tool (3.1.24)|
 |425264550 |Blackmagic Disk Speed Test (3.2)     |
 |539883307 |LINE (5.14.0)                        |
-|406056744 |Evernote (7.9)                       |
+|1480068668 |Messenger (63.3.112)                |
 |409183694 |Keynote (8.3)                        |
 |419330170 |Moom (3.2.14)                        |
 |747648890 |Telegram (4.9.9)                     |
@@ -137,8 +137,6 @@ My Favorite Applications
 |409203825 |Numbers (5.3                         |
 |497799835 |Xcode (10.1)                         |
 |409201541 |Pages (7.3)                          |
-|490463474 |Capster (3.0)                        |
-|588726889 |ReadKit (2.6.1)                      |
 |1037126344 |Apple Configurator 2 (2.7.1)        |
 |1295203466 |Microsoft Remote Desktop (10.2.9)   |
 |803453959  |Slack (3.3.8)                       |
@@ -231,8 +229,7 @@ font-hack \
 font-source-code-pro \
 font-source-han-sans \
 font-source-han-serif \
-font-menlo-for-powerline \
-font-meslo-nerd-font
+font-menlo-for-powerline
 ```
 
 [Install Fonts](fonts.sh)
@@ -249,7 +246,7 @@ sudo scutil --set HostName emp
 sudo sed -i ".bak" '2s/^/auth       sufficient     pam_tid.so\'$'\n/g' /etc/pam.d/sudo
 ```
 
-Workaround for iTerm2: `Turn off Prefs > Advanced > Allow sessions to survive logging out and back in`
+Workaround for iTerm2: Turn off `Prefs > Advanced > Allow sessions to survive logging out and back in`
 
 
 ## Block & Re-Enable updates to macOS Catalina 10.15
