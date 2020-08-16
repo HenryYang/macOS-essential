@@ -9,5 +9,4 @@ font-hack \
 font-source-code-pro \
 font-source-han-sans \
 font-source-han-serif \
-font-menlo-for-powerline \
-font-meslo-nerd-font
+font-menlo-for-powerline
