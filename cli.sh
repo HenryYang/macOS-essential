@@ -1,7 +1,6 @@
 #!/bin/bash
 
 brew install \
-zsh \
 mackup \
 mobile-shell \
 mtr \
@@ -19,4 +18,5 @@ node \
 openssl \
 byobu \
 ffmpeg \
+hugo \
 mas
