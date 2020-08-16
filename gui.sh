@@ -16,15 +16,9 @@ handbrake \
 coconutbattery \
 caprine \
 transmit \
-qlcolorcode \
-qlstephen \
-qlmarkdown \
-quicklook-json \
 betterzip \
-qlimagesize \
 webpquicklook \
 suspicious-package \
-quicklookase \
 divvy \
 vlc
 
