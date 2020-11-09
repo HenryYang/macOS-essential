@@ -20,6 +20,5 @@ betterzip \
 webpquicklook \
 suspicious-package \
 divvy \
+mcbopomofo \
 vlc
-
-
