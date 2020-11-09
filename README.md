@@ -79,6 +79,7 @@ betterzip \
 webpquicklook \
 suspicious-package \
 divvy \
+mcbopomofo \
 vlc
 ```
 [Install GUI Applications without password](gui.sh)
