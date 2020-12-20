@@ -25,6 +25,8 @@ brew analytics off
 
 
 # Install brew cask
+xcode-select --install
+brew install gcc
 brew install cask
 ```
 [Install essential package manager & dependency tools](essential.sh)
