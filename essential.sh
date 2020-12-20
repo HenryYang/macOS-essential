@@ -9,4 +9,4 @@ brew analytics off
 
 
 # Install brew cask
-brew cask
+brew install cask
