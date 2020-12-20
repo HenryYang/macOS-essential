@@ -9,4 +9,6 @@ brew analytics off
 
 
 # Install brew cask
+xcode-select --install
+brew install gcc
 brew install cask
