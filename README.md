@@ -93,20 +93,30 @@ vlc
 
 ```
 brew cask install \
-shimo \
+
 vmware-fusion \
 splashtop-personal \
 splashtop-streamer \
-istat-menus \
-pacifist \
-onyx \
+
+
+
 paragon-vmdk-mounter \
 wireshark \
-hex-fiend \
+
 visual-studio-code \
-imazing \
+
 qlvideo
 ```
+
+
+shimo \
+istat-menus \
+onyx \
+pacifist \
+hex-fiend \
+imazing \
+
+brew install --cask wireshark
 
 [Install GUI Applications](gui_pwd.sh)
 
