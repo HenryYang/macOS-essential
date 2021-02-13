@@ -148,6 +148,7 @@ My Favorite Applications
 |1295203466 |Microsoft Remote Desktop (10.2.9)   |
 |803453959  |Slack (3.3.8)                       |
 |1055511498 |Day One (3.0.1)                     |
+|1230249825 |VMware Remote Console (12.0.0)      |
 
 [Install MAS Applications](mas.sh)
 
