@@ -291,3 +291,9 @@ sudo pkill TouchBarServer
 
 * [iPhone Backup Extractor](https://www.iphonebackupextractor.com/)
 * [GPG Suite](https://gpgtools.org/)
+
+
+## Useful Tools & Links
+
+* [fetch-installer-pkg](https://github.com/scriptingosx/fetch-installer-pkg)
+* [Kerberos for macOS](https://computing.help.inf.ed.ac.uk/kerberos-mac-os-x)
