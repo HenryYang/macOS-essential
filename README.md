@@ -297,3 +297,9 @@ sudo pkill TouchBarServer
 
 * [fetch-installer-pkg](https://github.com/scriptingosx/fetch-installer-pkg)
 * [Kerberos for macOS](https://computing.help.inf.ed.ac.uk/kerberos-mac-os-x)
+
+
+## My favorite Apps in SetApp
+
+<img src="https://i.imgur.com/KUtMXor.png)" style="zoom:50%" />
+
