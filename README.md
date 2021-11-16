@@ -2,7 +2,7 @@
 
 
 
-Here is my macOS auto install script. It works on my macOS 10.15
+Here is my macOS auto install script. It works on my macOS 12.0 ( Intel x86 CPU )
 
 ⚠️⚠️⚠️ 
 
@@ -11,7 +11,7 @@ Base on personal experience, author isn't responsible for any data lost or damag
 ⚠️⚠️⚠️
 
 
-## Install essential package manager & dependency tools
+## Install essential package manager & turn off analytics
 
 #### This action need to typing password manually
   
@@ -23,11 +23,6 @@ Base on personal experience, author isn't responsible for any data lost or damag
 # Turn off analytics
 brew analytics off
 
-
-# Install brew cask
-xcode-select --install
-brew install gcc
-brew install cask
 ```
 [Install essential package manager & dependency tools](essential.sh)
 
@@ -46,6 +41,7 @@ tmux \
 youtube-dl \
 git \
 tree \
+gcc \
 autoconf \
 automake \
 node \
@@ -61,19 +57,20 @@ mas
 ## Install GUI Applications without password
 
 ```
-brew cask install \
+brew install \
 alfred \
 dropbox \
+joplin \
+google-chrome \
+firefox \
+visual-studio-code \
 bartender \
 fantastical \
 typinator \
-google-chrome \
-firefox \
 iterm2 \
 spotify \
 appcleaner \
 coderunner \
-handbrake \
 coconutbattery \
 caprine \
 transmit \
@@ -81,8 +78,15 @@ betterzip \
 webpquicklook \
 suspicious-package \
 divvy \
-mcbopomofo \
-vlc
+vlc \
+istat-menus \
+onyx \
+pacifist \
+hex-fiend \
+1password \
+boxcryptor \
+little-snitch \
+imazing
 ```
 [Install GUI Applications without password](gui.sh)
 
@@ -92,31 +96,23 @@ vlc
 #### This area need to typing password manually and change system preferences
 
 ```
-brew cask install \
-
+brew install \
 vmware-fusion \
 splashtop-personal \
 splashtop-streamer \
-
-
-
-paragon-vmdk-mounter \
-wireshark \
-
-visual-studio-code \
-
-qlvideo
+microsoft-edge \
+Veracrypt
 ```
 
+#### This area need to using `--cask` to install 
 
+```
+brew install --cask \
+wireshark \
 shimo \
-istat-menus \
-onyx \
-pacifist \
-hex-fiend \
-imazing \
+handbrake
+```
 
-brew install --cask wireshark
 
 [Install GUI Applications](gui_pwd.sh)
 
