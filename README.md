@@ -13,7 +13,7 @@ Base on personal experience, author isn't responsible for any data lost or damag
 
 ## Install essential package manager & turn off analytics
 
-#### This action need to typing password manually
+#### This action needs to typing password manually
   
 ```
 # Install homebrew & Xcode Command Line Tools
@@ -49,6 +49,7 @@ openssl \
 byobu \
 ffmpeg \
 hugo \
+google-cloud-sdk \
 mas
 ```
 [Install CLI Applications](cli.sh)
@@ -93,7 +94,7 @@ imazing
 
 ## Install GUI Applications
 
-#### This area need to typing password manually and change system preferences
+#### This area needs to type password manually and change system preferences
 
 ```
 brew install \
@@ -101,10 +102,11 @@ vmware-fusion \
 splashtop-personal \
 splashtop-streamer \
 microsoft-edge \
+gpg-suite \
 Veracrypt
 ```
 
-#### This area need to using `--cask` to install 
+#### This area needs to use `--cask` to install 
 
 ```
 brew install --cask \
