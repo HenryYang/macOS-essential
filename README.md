@@ -103,6 +103,7 @@ splashtop-personal \
 splashtop-streamer \
 microsoft-edge \
 gpg-suite \
+aldente \
 Veracrypt
 ```
 
