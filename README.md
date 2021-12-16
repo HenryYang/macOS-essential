@@ -104,6 +104,7 @@ splashtop-streamer \
 microsoft-edge \
 gpg-suite \
 aldente \
+maestral \
 Veracrypt
 ```
 
