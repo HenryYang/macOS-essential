@@ -87,6 +87,7 @@ hex-fiend \
 1password \
 boxcryptor \
 little-snitch \
+coteditor \
 imazing
 ```
 [Install GUI Applications without password](gui.sh)
@@ -149,6 +150,7 @@ My Favorite Applications
 |803453959  |Slack (3.3.8)                       |
 |1055511498 |Day One (3.0.1)                     |
 |1230249825 |VMware Remote Console (12.0.0)      |
+|1183407767 |MWeb (4.2.3)                        |
 
 [Install MAS Applications](mas.sh)
 
