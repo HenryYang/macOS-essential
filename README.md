@@ -24,7 +24,7 @@ Base on personal experience, author isn't responsible for any data lost or damag
 brew analytics off
 
 ```
-[Install essential package manager & dependency tools](essential.sh)
+
 
 ## Install CLI Applications
 
@@ -52,7 +52,7 @@ hugo \
 google-cloud-sdk \
 mas
 ```
-[Install CLI Applications](cli.sh)
+
 
 
 ## Install GUI Applications without password
@@ -90,7 +90,7 @@ little-snitch \
 coteditor \
 imazing
 ```
-[Install GUI Applications without password](gui.sh)
+
 
 
 ## Install GUI Applications
@@ -119,7 +119,7 @@ handbrake
 ```
 
 
-[Install GUI Applications](gui_pwd.sh)
+
 
 ## Install MAS Applications
 
@@ -152,7 +152,7 @@ My Favorite Applications
 |1230249825 |VMware Remote Console (12.0.0)      |
 |1183407767 |MWeb (4.2.3)                        |
 
-[Install MAS Applications](mas.sh)
+
 
 ## System Settings
 
@@ -225,7 +225,7 @@ defaults write com.apple.systemuiserver menuExtras -array \
 # Restart System UI Service
 killall SystemUIServer
 ```
-[System Settings](system_settings.sh)
+
 
 ## Others
 
@@ -261,7 +261,7 @@ font-source-han-serif \
 font-menlo-for-powerline
 ```
 
-[Install Fonts](fonts.sh)
+
 
 ## Setup Hostname (Be sure to change hostname to yours)
 
