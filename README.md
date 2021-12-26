@@ -224,7 +224,6 @@ defaults write com.apple.systemuiserver menuExtras -array \
 
 # Restart System UI Service
 killall SystemUIServer
-
 ```
 [System Settings](system_settings.sh)
 
@@ -238,7 +237,14 @@ sed -i -e 's/robbyrussell/agnoster/g' ~/.zshrc
 rm ~/.zshrc-e
 ```
 
-[Install oh-my-zsh](ohzsh.sh)
+#### Manage favorite items & location in Finder sidebar
+
+```
+cp ./{com.apple.LSSharedFileList.FavoriteItems.sfl2,com.apple.LSSharedFileList.FavoriteVolumes.sfl2} ~/Library/Application Support/com.apple.sharedfilelist/
+```
+
+[Reference](https://apple.stackexchange.com/questions/366856/use-profile-manager-or-other-methods-for-network-mounts-favorites)
+
 
 #### Install Fonts
 
