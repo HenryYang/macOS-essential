@@ -169,18 +169,11 @@ defaults write NSGlobalDomain NSAutomaticWindowAnimationsEnabled -bool false
 # Use plain text mode for new TextEdit documents
 defaults write com.apple.TextEdit RichText -int 0
 
-# Set default Finder location to home folder (~/)
-defaults write com.apple.finder NewWindowTarget -string "PfLo" && \
-defaults write com.apple.finder NewWindowTargetPath -string "file://${HOME}"
-
 # Expand save panel by default
 defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode -bool true
 
 # Check for software updates daily, not just once per week
 defaults write com.apple.SoftwareUpdate ScheduleFrequency -int 1
-
-# Use current directory as default search scope in Finder
-defaults write com.apple.finder FXDefaultSearchScope -string "SCcf"
 
 # Show Path bar in Finder
 defaults write com.apple.finder ShowPathbar -bool true
@@ -189,10 +182,13 @@ defaults write com.apple.finder ShowPathbar -bool true
 defaults write com.apple.finder ShowStatusBar -bool true
 
 # Show icons for hard drives, servers, and removable media on the desktop
-defaults write com.apple.finder ShowExternalHardDrivesOnDesktop -bool true && \
-defaults write com.apple.finder ShowHardDrivesOnDesktop -bool true && \
-defaults write com.apple.finder ShowMountedServersOnDesktop -bool true && \
-defaults write com.apple.finder ShowRemovableMediaOnDesktop -bool true
+defaults write com.apple.finder.plist ShowExternalHardDrivesOnDesktop 1 && \
+defaults write com.apple.finder.plist ShowHardDrivesOnDesktop 1 && \
+defaults write com.apple.finder.plist ShowMountedServersOnDesktop 1 && \
+defaults write com.apple.finder.plist ShowRemovableMediaOnDesktop 1
+
+# Hide tags in Finder sidebar
+defaults write com.apple.finder.plist ShowRecentTags 0
 
 # Avoid creating .DS_Store files on network volumes
 defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
@@ -207,11 +203,28 @@ defaults write NSGlobalDomain WebKitDeveloperExtras -bool true
 # Show the ~/Library folder
 chflags nohidden ~/Library
 
-# Show absolute path in finder's title bar. 
+# Show absolute path in finder's title bar
 defaults write com.apple.finder _FXShowPosixPathInTitle -bool YES
 
 # Show build duration for Xcode
 defaults write com.apple.dt.Xcode ShowBuildOperationDuration YES
+
+# Show system icon in Apple title bar
+defaults write com.apple.systemuiserver menuExtras -array \
+"/System/Library/CoreServices/Menu Extras/Bluetooth.menu" \
+"/System/Library/CoreServices/Menu Extras/Clock.menu" \
+"/System/Library/CoreServices/Menu Extras/AirPort.menu" \
+"/System/Library/CoreServices/Menu Extras/Battery.menu" \
+"/System/Library/CoreServices/Menu Extras/TimeMachine.menu" \
+"/System/Library/CoreServices/Menu Extras/Displays.menu" \
+"/System/Library/CoreServices/Menu Extras/VPN.menu" \
+"/System/Library/CoreServices/Menu Extras/User.menu" \
+"/System/Library/CoreServices/Menu Extras/WWAN.menu" \
+"/System/Library/CoreServices/Menu Extras/Volume.menu"
+
+# Restart System UI Service
+killall SystemUIServer
+
 ```
 [System Settings](system_settings.sh)
 
