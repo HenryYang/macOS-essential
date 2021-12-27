@@ -318,6 +318,8 @@ sudo pkill TouchBarServer
 
 * [fetch-installer-pkg](https://github.com/scriptingosx/fetch-installer-pkg)
 * [Kerberos for macOS](https://computing.help.inf.ed.ac.uk/kerberos-mac-os-x)
+* [Bash Keystrokes – Mosky’s Notes](https://paper.dropbox.com/doc/Bash-Keystrokes-Moskys-Notes-jc4OF7EoXcOIuA9gtPs13)
+
 
 
 ## My favorite Apps in SetApp
