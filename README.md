@@ -237,6 +237,10 @@ sed -i -e 's/robbyrussell/agnoster/g' ~/.zshrc
 rm ~/.zshrc-e
 ```
 
+[Reference](https://iphone4.tw/forums/showthread.php?t=206652)
+
+
+
 #### Manage favorite items & location in Finder sidebar
 
 ```
