@@ -38,7 +38,7 @@ pyenv \
 go \
 glide \
 tmux \
-youtube-dl \
+yt-dlp \
 git \
 tree \
 gcc \
