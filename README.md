@@ -2,7 +2,7 @@
 
 
 
-Here is my macOS auto install script. It works on my macOS 12.0 ( Intel x86 CPU )
+Here is my macOS auto install script. It works on my macOS 12.3 ( Intel x86 CPU )
 
 ⚠️⚠️⚠️ 
 
@@ -88,6 +88,7 @@ hex-fiend \
 boxcryptor \
 little-snitch \
 coteditor \
+cleanshot \
 imazing
 ```
 
@@ -133,24 +134,24 @@ My Favorite Applications
 
 | APP_ID   | Name                                |
 | :------- | :---------------------------------- |
-|638161122 |YubiKey Personalization Tool (3.1.24)|
-|425264550 |Blackmagic Disk Speed Test (3.2)     |
-|539883307 |LINE (5.14.0)                        |
-|1480068668 |Messenger (63.3.112)                |
-|409183694 |Keynote (8.3)                        |
-|419330170 |Moom (3.2.14)                        |
-|747648890 |Telegram (4.9.9)                     |
-|425424353 |The Unarchiver (4.1.0)               |
-|407963104 |Pixelmator (3.8.1)                   |
-|409203825 |Numbers (5.3                         |
-|497799835 |Xcode (10.1)                         |
-|409201541 |Pages (7.3)                          |
-|1037126344 |Apple Configurator 2 (2.7.1)        |
-|1295203466 |Microsoft Remote Desktop (10.2.9)   |
-|803453959  |Slack (3.3.8)                       |
-|1055511498 |Day One (3.0.1)                     |
-|1230249825 |VMware Remote Console (12.0.0)      |
-|1183407767 |MWeb (4.2.3)                        |
+|638161122 |YubiKey Personalization Tool         |
+|425264550 |Blackmagic Disk Speed Test           |
+|539883307 |LINE                                 |
+|1480068668 |Messenger                           |
+|409183694 |Keynote                              |
+|419330170 |Moom                                 |
+|747648890 |Telegram                             |
+|425424353 |The Unarchiver                       |
+|407963104 |Pixelmator                           |
+|409203825 |Numbers                              |
+|409201541 |Pages                                |
+|1037126344 |Apple Configurator 2                |
+|1295203466 |Microsoft Remote Desktop            |
+|803453959  |Slack                               |
+|1055511498 |Day One                             |
+|1230249825 |VMware Remote Console               |
+|1183407767 |MWeb                                |
+|497799835 |Xcode                                |
 
 
 
@@ -244,7 +245,7 @@ rm ~/.zshrc-e
 #### Manage favorite items & location in Finder sidebar
 
 ```
-cp ./{com.apple.LSSharedFileList.FavoriteItems.sfl2,com.apple.LSSharedFileList.FavoriteVolumes.sfl2} ~/Library/Application Support/com.apple.sharedfilelist/
+cp ./{com.apple.LSSharedFileList.FavoriteItems.sfl2,com.apple.LSSharedFileList.FavoriteVolumes.sfl2} ~/Library/Application\ Support/com.apple.sharedfilelist/
 ```
 
 [Reference](https://apple.stackexchange.com/questions/366856/use-profile-manager-or-other-methods-for-network-mounts-favorites)
@@ -255,13 +256,11 @@ cp ./{com.apple.LSSharedFileList.FavoriteItems.sfl2,com.apple.LSSharedFileList.F
 ```
 brew tap homebrew/cask-fonts
 
-brew cask install \
+brew install \
 font-anonymous-pro \
 font-fira-code \
 font-hack \
 font-source-code-pro \
-font-source-han-sans \
-font-source-han-serif \
 font-menlo-for-powerline
 ```
 
@@ -315,7 +314,7 @@ sudo pkill TouchBarServer
 ## Manually Install
 
 * [iPhone Backup Extractor](https://www.iphonebackupextractor.com/)
-* [GPG Suite](https://gpgtools.org/)
+* [Python 2.7.18](https://www.python.org/downloads/release/python-2718/)
 
 
 ## Useful Tools & Links
