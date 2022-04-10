@@ -150,6 +150,7 @@ My Favorite Applications
 |803453959  |Slack                               |
 |1055511498 |Day One                             |
 |1230249825 |VMware Remote Console               |
+|1464122853 | NextDNS                            |
 |1183407767 |MWeb                                |
 |497799835 |Xcode                                |
 
