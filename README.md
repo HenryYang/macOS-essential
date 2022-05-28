@@ -89,6 +89,8 @@ boxcryptor \
 little-snitch \
 coteditor \
 cleanshot \
+input-source-pro \
+alt-tab \
 imazing
 ```
 
