@@ -17,11 +17,22 @@ Base on personal experience, author isn't responsible for any data lost or damag
   
 ```
 # Install homebrew & Xcode Command Line Tools
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 
 # Turn off analytics
 brew analytics off
+
+```
+
+
+## Install Rosetta 2 via Command Line on Apple Silicon Mac
+
+#### This action needs to typing password manually
+  
+```
+# Skip the license agreement by providing an additional flag
+/usr/sbin/softwareupdate --install-rosetta --agree-to-license
 
 ```
 
