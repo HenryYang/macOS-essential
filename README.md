@@ -329,6 +329,7 @@ sudo pkill TouchBarServer
 
 * [iPhone Backup Extractor](https://www.iphonebackupextractor.com/)
 * [Python 2.7.18](https://www.python.org/downloads/release/python-2718/)
+* [Mounty for NTFS](https://mounty.app/#installation)
 
 
 ## Useful Tools & Links
