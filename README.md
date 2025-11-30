@@ -76,7 +76,6 @@ joplin \
 google-chrome \
 firefox \
 visual-studio-code \
-bartender \
 fantastical \
 typinator \
 iterm2 \
@@ -129,6 +128,7 @@ Veracrypt
 brew install --cask \
 wireshark \
 shimo \
+jordanbaird-ice \
 handbrake
 ```
 
@@ -294,6 +294,12 @@ sudo sed -i ".bak" '2s/^/auth       sufficient     pam_tid.so\'$'\n/g' /etc/pam.
 
 Workaround for iTerm2: Turn off `Prefs > Advanced > Allow sessions to survive logging out and back in`
 
+
+## CapsLockNoDelay
+
+```
+hidutil property --set '{"CapsLockDelayOverride":0}'
+```
 
 ## Block & Re-Enable updates to macOS Catalina 10.15
 
